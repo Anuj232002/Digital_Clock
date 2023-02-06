@@ -1,0 +1,40 @@
+/* *{
+box-sizing: border-box;
+} */
+body
+{
+    
+    margin-top: 10rem;
+    display:grid;
+    /* background-image: url(https://www.pixel4k.com/wp-content/uploads/2019/12/minimal-sunset-landscape_1575662668.jpg.webp); */
+    background-image: url(https://wallpaperaccess.com/full/349967.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.date
+{
+    display: flex;
+    gap: 1rem;
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+    padding: 2rem;
+    margin: 2rem; 
+    color: aliceblue;
+}
+.time
+{
+    display: flex;
+    gap: 1rem;
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+    color: aliceblue;
+    padding: 1rem;
+    margin: 2rem;
+
+}
